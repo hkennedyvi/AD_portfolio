@@ -1,0 +1,23 @@
+.projects-container {
+    padding: 0 12rem;
+}
+
+.projects-header {
+    margin: 0 0 5rem 0;
+    font-size: 5rem;
+}
+
+.pm-container {
+    padding: 8rem 0;
+}
+
+.pm-list {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+}
+
+.pm-entry {
+    border: 1px black solid;
+    height: 5rem;
+}
