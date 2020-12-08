@@ -1,14 +1,14 @@
 import React from 'react';
 import NavBar from '../components/NavBar';
-import Main from '../components/Main';
+import Projects from '../components/Projects';
 
-function HomePage () {
+function ProjectsPage () {
     return (
         <div>
             <NavBar />
-            <Main />
+            <Projects />
         </div>
     )
 };
 
-export default HomePage;
+export default ProjectsPage;

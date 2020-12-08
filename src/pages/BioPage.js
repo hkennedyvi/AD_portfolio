@@ -1,14 +1,14 @@
 import React from 'react';
 import NavBar from '../components/NavBar';
-import Main from '../components/Main';
+import Bio from '../components/Bio';
 
-function HomePage () {
+function BioPage () {
     return (
         <div>
             <NavBar />
-            <Main />
+            <Bio />
         </div>
     )
 };
 
-export default HomePage;
+export default BioPage;
