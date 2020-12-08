@@ -1,0 +1,28 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.placeholder-image {
+    height: 600px;
+    width: 600px;
+    background: black;
+    position: absolute;
+    top: 100px;
+    right: 250px;
+    z-index: 10;
+}
+
+.main-headers {
+    font-size: 2rem;
+    margin: 0;
+    padding: 0;
+    z-index: 20;
+    margin: 30rem 0 0 0;
+}
+
+.main-copy {
+    line-height: 2;
+    font-size: 1.5rem;
+}

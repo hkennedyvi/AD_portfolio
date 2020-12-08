@@ -1,0 +1,38 @@
+$primaryFont: #324e7b;
+
+.navbar {
+    height: 100vh;
+    width: 12vw;
+    color: black;
+    font-size: 1.5rem;
+    position: fixed;
+}
+
+.navbar-nav {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: 100%;
+}
+
+.nav-item {
+    width: 100%;
+}
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    height: 4rem;
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 0;
+}
+
+.nav-link:hover {
+    color: $primaryFont;
+    font-weight: bolder;
+    text-decoration: underline;
+    font-style: italic;
+}
