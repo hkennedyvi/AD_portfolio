@@ -1,0 +1,41 @@
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-form {
+    height: 70vh;
+    width: 60vw;
+    background:whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: black;
+}
+
+.contact-entry {
+    display: flex;
+    // border: 1px blue solid;
+    justify-content: center;
+}
+
+.contact-icon {
+    font-size: 2rem;
+    margin: 0 5rem 0 0;
+}
+
+.contact-text {
+    font-size: 2rem;
+    border-bottom: solid peachpuff 5px;
+    width: 20vw;
+    margin: 0 0 2rem 0;
+    padding: 0 0 1rem 0;
+}
+
+.contact-text-secondary {
+    font-size: 1rem;
+    color: grey;
+}

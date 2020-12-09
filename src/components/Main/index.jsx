@@ -1,11 +1,12 @@
 import React from 'react';
+import Image from './painted_vans.jpg';
 import './main.scss';
 
 function Main() {
     return (
         <div className="main-container">
             <div className="placeholder-image">
-                PIC OF AINSLEE
+                <img src={Image} alt="main" className="main-pic"/>
             </div>
             <div className="main-headers">
                 <h1>AINSLEE DICKEN</h1>

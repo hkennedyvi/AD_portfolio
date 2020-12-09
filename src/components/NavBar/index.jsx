@@ -3,7 +3,7 @@ import './navbar.scss';
 
 function NavBar () {
     return (
-        <div className="navbar">
+        <nav className="navbar">
           <ul className="navbar-nav">
                     <li className="nav-item">
                         <a href="/work" className="nav-link">
@@ -26,7 +26,7 @@ function NavBar () {
                         </a>
                     </li>
                 </ul>
-        </div>
+        </nav>
     )
 };
 

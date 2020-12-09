@@ -5,9 +5,7 @@
 }
 
 .placeholder-image {
-    height: 600px;
-    width: 600px;
-    background: black;
+    width: 450px;
     position: absolute;
     top: 100px;
     right: 250px;
@@ -15,14 +13,18 @@
 }
 
 .main-headers {
-    font-size: 2rem;
-    margin: 0;
-    padding: 0;
+    font-size: 1.2rem;
     z-index: 20;
+    padding: 4rem;
     margin: 30rem 0 0 0;
+    background: #324e7b;
 }
 
 .main-copy {
     line-height: 2;
     font-size: 1.5rem;
+}
+
+.main-pic {
+    max-width: 100%;
 }
